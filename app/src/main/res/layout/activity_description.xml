@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context=".Description">
+
+
+    <TextView
+        android:id="@+id/chooseExpert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Description"
+        android:textAlignment="center"
+        android:textSize="40dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/affects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chooseExpert"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text=" . Early blight affects the foliage, stems and fruits"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/symp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/affects"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Symptoms"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/symp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/symp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="1. Black leathery spots on fruits."
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/symp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/symp1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="2. Yellow leaves."
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/symp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/symp2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="3. Dark spots with concentric rings develop on older leaves."
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/man"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/symp3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Management"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/man1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/man"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="1. Remove affected plants."
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/man2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/man1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="2. Apply sulfur and copper sprays."
+        android:textSize="25dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/butExpert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/man2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+
+
+        android:text="Choose expert">
+
+    </Button>
+
+
+</RelativeLayout>

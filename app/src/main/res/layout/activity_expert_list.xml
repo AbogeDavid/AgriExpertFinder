@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context=".ExpertList">
+
+    <TextView
+        android:id="@+id/chooseExpert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Select an expert"
+        android:textAlignment="center"
+        android:textSize="40dp">
+
+    </TextView>
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView2"
+        android:layout_width="180dp"
+
+        app:layout_constraintVertical_bias="0.3"
+        android:layout_height="180dp"
+        app:cardCornerRadius="90dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/chooseExpert"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/profile_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/vector_prof">
+
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+
+        android:id="@+id/expert_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="1. Gosh Gibert"
+        android:textSize="20dp">
+
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/expert_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expert_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="2. Santosh Kavevi"
+        android:textSize="20dp">
+
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/expert_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expert_2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="3. Kevin Muriuki"
+        android:textSize="20dp">
+
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/expert_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expert_3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="4. George Washington "
+        android:textSize="20dp">
+
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/expert_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expert_4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="5. Shi Yan "
+        android:textSize="20dp">
+
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/expert_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expert_5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="6. Jamila Abass"
+        android:textSize="20dp">
+
+
+    </TextView>
+
+</RelativeLayout>

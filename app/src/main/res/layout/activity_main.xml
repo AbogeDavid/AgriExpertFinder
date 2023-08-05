@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+
+
+        android:text="Login to Agri-Expert"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="30sp"
+
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <!-- circular image view-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/login_text"
+
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="80dp"
+
+        android:id="@+id/applogo"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="130dp">
+
+        <ImageView
+            android:id="@+id/getuserimageinimageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logos">
+
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:id="@+id/get_email"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/applogo"
+
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/customtext"
+        android:drawableStart="@drawable/vector_email"
+        android:drawablePadding="15dp"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/get_password"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/get_email"
+
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/customtext"
+        android:drawableStart="@drawable/vector_key"
+        android:drawablePadding="15dp"
+        android:hint="Enter password"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword">
+
+    </EditText>
+
+
+    <android.widget.Button
+        android:id="@+id/button_login"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/get_password"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+
+        android:background="@android:color/holo_green_light"
+
+        android:text="Login"
+        android:textColor="@color/black">
+
+    </android.widget.Button>
+
+    <android.widget.Button
+        android:id="@+id/button_cleartext"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/get_password"
+        android:layout_alignRight="@+id/button_login"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="50dp"
+
+        android:background="@android:color/holo_green_light"
+
+        android:text="Delete"
+        android:textColor="@color/black">
+
+    </android.widget.Button>
+
+    <TextView
+        android:id="@+id/register_text"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_login"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+
+
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/forgot_password_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_login"
+        android:layout_alignLeft="@+id/register_text"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"
+
+
+        android:text="Forgot password?"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light">
+
+    </TextView>
+
+
+
+
+</RelativeLayout>

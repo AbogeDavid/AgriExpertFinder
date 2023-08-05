@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExpertReg">
+
+
+
+    <TextView
+        android:id="@+id/expertreg_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+
+        android:textStyle="bold">
+
+    </TextView>
+    <!-- circular image view-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/expertreg_text"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+
+        android:id="@+id/applogo_registration"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="130dp">
+
+        <ImageView
+            android:id="@+id/getuserimageinimageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logos">
+
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:id="@+id/name_text"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/applogo_registration"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+
+
+        android:background="@drawable/customtext"
+
+        android:hint="Enter Name"
+        android:textColorHint="@color/black"
+        android:textSize="20sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/loc_name"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/name_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+
+
+        android:background="@drawable/customtext"
+
+        android:hint="Enter Location"
+        android:textColorHint="@color/black"
+        android:textSize="20sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/email_adress"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/loc_name"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/customtext"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/register_passwordfield"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/email_adress"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/customtext"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/confirm_passwordfield"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/register_passwordfield"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/customtext"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black">
+
+    </EditText>
+
+    <android.widget.Button
+        android:id="@+id/register_button"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/confirm_passwordfield"
+
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+
+        android:background="@android:color/holo_green_light"
+        android:text="Register"
+        android:textColor="@color/black">
+
+    </android.widget.Button>
+
+    <android.widget.Button
+        android:id="@+id/backtologin_expert_button"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/confirm_passwordfield"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:background="@android:color/holo_green_light"
+        android:text="back to login"
+        android:textColor="@color/black">
+
+    </android.widget.Button>
+
+
+
+</RelativeLayout>

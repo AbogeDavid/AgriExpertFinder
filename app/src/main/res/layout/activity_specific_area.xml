@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context=".SpecificArea">
+
+    <TextView
+        android:id="@+id/options"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="CHOOSE OPTION"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/tomato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/options"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="1. Tomatoes (Early blight)"
+        android:textSize="20dp">
+
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/expert_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tomato"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="2. Vegetables (Podery Mildew)"
+        android:textSize="20dp">
+
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/maize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expert_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="3.Maize (maize blight) "
+        android:textSize="20dp">
+
+
+    </TextView>
+    <TextView
+
+        android:id="@+id/maize1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maize"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="4. Soil infertility"
+        android:textSize="20dp">
+
+
+
+
+
+
+    </TextView>
+
+
+</RelativeLayout>

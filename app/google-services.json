@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "398747785956",
+    "project_id": "agri-expert-finder-c3c19",
+    "storage_bucket": "agri-expert-finder-c3c19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398747785956:android:f463aab5064893e2cfaaf1",
+        "android_client_info": {
+          "package_name": "com.example.agri_expertfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398747785956-6hj5k1572r4nrsudova3tp51j6e1m8sk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agri_expertfinder",
+            "certificate_hash": "ca76d23c3fa1f7d4d464a6f4afa81ac78401a3bf"
+          }
+        },
+        {
+          "client_id": "398747785956-puq66f5pqtmfk11otokjcersb9sidqec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNwNA3TCHquHjNlfvG-grcyvUlssE3o1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398747785956-puq66f5pqtmfk11otokjcersb9sidqec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
